@@ -1,0 +1,9 @@
+.cards_list{    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    background-color: antiquewhite;
+
+}
