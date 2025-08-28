@@ -1,13 +1,17 @@
 import "./styles.css";
 
-function Button({ buttonName = "Send", onClick = () => {}, children }) {
+function Button({
+  buttonName = "Send",
+  onClick = () => {},
+  children,
+  type = "button",
+}) {
   return (
-    <button className="button_component" onClick={onClick}>
+    <button className="button_component" onClick={onClick} type={type}>
       {/* {children ? "" : buttonName} */}
-      
+
       {/* условный рендеринг */}
-      {! children && buttonName}
-      {children}
+      {!children && buttonName}
     </button>
   );
 }
