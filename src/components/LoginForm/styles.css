@@ -1,0 +1,11 @@
+.loginForm_component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 590px;
+  height: 450px;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 60px;
+  gap: 30px;
+}

@@ -1,0 +1,16 @@
+.input_component {
+  width: 470px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F6F6F;
+}
+
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
